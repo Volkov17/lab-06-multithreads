@@ -37,7 +37,7 @@ void Logging()
 void find (const int &m) {
     while (1) {
         //std::vector<char> array{(char) std::rand(), (char) std::rand() , (char) std::rand() , (char) std::rand() };
-       // std::string str;
+       std::string str;
         str[0] = (char) std::rand();
         str[1] = (char) std::rand();
         str[2] = (char) std::rand();
