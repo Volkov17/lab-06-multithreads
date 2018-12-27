@@ -20,7 +20,7 @@ hunter_add_package(Boost COMPONENTS system filesystem thread log)
 find_package(Boost CONFIG REQUIRED system filesystem thread log_setup log)
 find_package(GTest CONFIG REQUIRED)
 
-add_executable(tests multithreads.cpp)
+add_executable(tests main.cpp)
 
 target_include_directories(tests 
   PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include
